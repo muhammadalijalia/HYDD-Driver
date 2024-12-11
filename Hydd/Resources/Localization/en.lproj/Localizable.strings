@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  HYDD-driver
+
+  Created by Saad on 2/24/21.
+  Copyright © 2021 Virtuosoft. All rights reserved.
+*/
+"chat_title" = "%@";
+"chat_body" = "%@";
+"You_have_new_missions" = "You have new missions";
+"Slide_to_view" = "Slide to view";
+"Client_has_cancelled_its_mission" = "Client has cancelled its mission";
+"slide_to_check" = "Slide to check";
+"Your_mission_will_end_in" = "Your mission will end in %@ minutes";
+"Slide_to_check_the_status" = "Click for detailed information";

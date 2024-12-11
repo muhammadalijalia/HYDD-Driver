@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CancelJobPopUpViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="CancelJobPopUp" id="i5M-Pr-FkT" customClass="CancelJobPopUp" customModule="Hydd_Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jdX-hP-vf3">
+                    <rect key="frame" x="19.5" y="9" width="336" height="332.5"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_cancelJob" translatesAutoresizingMaskIntoConstraints="NO" id="cEx-bv-b8c">
+                            <rect key="frame" x="129.5" y="27.5" width="77" height="77.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="cEx-bv-b8c" secondAttribute="height" multiplier="1:1" id="1Tf-g4-BBg"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iPo-yi-aY0">
+                            <rect key="frame" x="25" y="115" width="286" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="soK-6U-kgP">
+                            <rect key="frame" x="25" y="256" width="286" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XdB-TN-zRF">
+                                    <rect key="frame" x="0.0" y="0.0" width="133" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RBf-iH-Ngy" customClass="ZFRippleButton" customModule="Hydd_Driver" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="133" height="50"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="RBf-iH-Ngy" secondAttribute="bottom" id="9Me-Ig-TwP"/>
+                                        <constraint firstItem="RBf-iH-Ngy" firstAttribute="top" secondItem="XdB-TN-zRF" secondAttribute="top" id="Kfu-ya-TU6"/>
+                                        <constraint firstItem="RBf-iH-Ngy" firstAttribute="leading" secondItem="XdB-TN-zRF" secondAttribute="leading" id="dJt-tY-aY9"/>
+                                        <constraint firstAttribute="trailing" secondItem="RBf-iH-Ngy" secondAttribute="trailing" id="tcN-ru-caw"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rEq-La-eGJ">
+                                    <rect key="frame" x="153" y="0.0" width="133" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Doi-fr-Jvc" customClass="ZFRippleButton" customModule="Hydd_Driver" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="133" height="50"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="rippleColor">
+                                                    <color key="value" red="0.94509803920000002" green="0.23137254900000001" blue="0.20784313730000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="rippleBackgroundColor">
+                                                    <color key="value" red="0.97647058819999999" green="0.30196078430000001" blue="0.29411764709999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="Doi-fr-Jvc" firstAttribute="top" secondItem="rEq-La-eGJ" secondAttribute="top" id="3cl-Nr-8os"/>
+                                        <constraint firstItem="Doi-fr-Jvc" firstAttribute="leading" secondItem="rEq-La-eGJ" secondAttribute="leading" id="7lm-m0-4Ue"/>
+                                        <constraint firstAttribute="trailing" secondItem="Doi-fr-Jvc" secondAttribute="trailing" id="UWH-Vb-O1a"/>
+                                        <constraint firstAttribute="bottom" secondItem="Doi-fr-Jvc" secondAttribute="bottom" id="sNK-IA-Zah"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="o2R-TJ-2Yr"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="soK-6U-kgP" firstAttribute="width" secondItem="jdX-hP-vf3" secondAttribute="width" multiplier="0.85" id="IF5-tC-h3q"/>
+                        <constraint firstItem="iPo-yi-aY0" firstAttribute="centerX" secondItem="jdX-hP-vf3" secondAttribute="centerX" id="JEa-1g-Lgn"/>
+                        <constraint firstItem="soK-6U-kgP" firstAttribute="centerX" secondItem="jdX-hP-vf3" secondAttribute="centerX" id="JRC-A8-zBI"/>
+                        <constraint firstItem="cEx-bv-b8c" firstAttribute="width" secondItem="jdX-hP-vf3" secondAttribute="width" multiplier="0.23" id="PBc-jj-0li"/>
+                        <constraint firstItem="cEx-bv-b8c" firstAttribute="centerY" secondItem="jdX-hP-vf3" secondAttribute="centerY" multiplier="0.4" id="c9A-Kr-DVE"/>
+                        <constraint firstItem="iPo-yi-aY0" firstAttribute="top" secondItem="cEx-bv-b8c" secondAttribute="bottom" constant="10" id="fem-IZ-pdC"/>
+                        <constraint firstItem="soK-6U-kgP" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iPo-yi-aY0" secondAttribute="bottom" constant="15" id="j1e-h6-lhL"/>
+                        <constraint firstItem="cEx-bv-b8c" firstAttribute="centerX" secondItem="jdX-hP-vf3" secondAttribute="centerX" id="nCp-36-cxL"/>
+                        <constraint firstItem="iPo-yi-aY0" firstAttribute="width" secondItem="jdX-hP-vf3" secondAttribute="width" multiplier="0.85" id="tPF-Oy-NFq"/>
+                        <constraint firstAttribute="bottom" secondItem="soK-6U-kgP" secondAttribute="bottom" constant="26.5" id="vnv-bl-hTy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="jdX-hP-vf3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Ulj-gC-EAx"/>
+                <constraint firstItem="jdX-hP-vf3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Vbq-q6-5RT"/>
+                <constraint firstItem="jdX-hP-vf3" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.95" id="hD4-sM-jOL"/>
+                <constraint firstItem="jdX-hP-vf3" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="344/384" id="k04-ML-8TT"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonNo" destination="Doi-fr-Jvc" id="4aA-f1-Z3a"/>
+                <outlet property="buttonYes" destination="RBf-iH-Ngy" id="0EL-4P-h6M"/>
+                <outlet property="labelDescription" destination="iPo-yi-aY0" id="Jqw-ZC-GSl"/>
+                <outlet property="viewCorner" destination="jdX-hP-vf3" id="nic-Zx-j0Q"/>
+                <outlet property="viewNo" destination="rEq-La-eGJ" id="uXY-Q8-LuA"/>
+                <outlet property="viewYes" destination="XdB-TN-zRF" id="f8F-jt-dU3"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="11.694152923538232"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_cancelJob" width="88" height="88"/>
+    </resources>
+</document>

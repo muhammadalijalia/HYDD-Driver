@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCarViewController">
+            <connections>
+                <outlet property="labelTitle" destination="xNW-xH-kYs" id="jZj-Zr-UVO"/>
+                <outlet property="tableViewCars" destination="NxN-lr-4is" id="f1X-WB-qfO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My cars" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xNW-xH-kYs">
+                    <rect key="frame" x="16" y="30" width="135" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NxN-lr-4is">
+                    <rect key="frame" x="0.0" y="98" width="375" height="569"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xdc-hr-LZW">
+                    <rect key="frame" x="295" y="587" width="50" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="dt8-be-d3w"/>
+                        <constraint firstAttribute="width" secondItem="Xdc-hr-LZW" secondAttribute="height" id="rKi-Tn-rd7"/>
+                    </constraints>
+                    <state key="normal" image="icon_add_car"/>
+                    <connections>
+                        <action selector="actionRegisterCar:" destination="-1" eventType="touchUpInside" id="ZYn-wn-7Vu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="xNW-xH-kYs" firstAttribute="top" secondItem="Tq4-Am-qwQ" secondAttribute="top" constant="30" id="1kY-UK-ia3"/>
+                <constraint firstItem="Tq4-Am-qwQ" firstAttribute="bottom" secondItem="NxN-lr-4is" secondAttribute="bottom" id="LNa-ch-Zmi"/>
+                <constraint firstItem="Tq4-Am-qwQ" firstAttribute="trailing" secondItem="NxN-lr-4is" secondAttribute="trailing" id="a4c-Dx-b96"/>
+                <constraint firstItem="Tq4-Am-qwQ" firstAttribute="bottom" secondItem="Xdc-hr-LZW" secondAttribute="bottom" constant="30" id="bgF-uS-AKR"/>
+                <constraint firstItem="NxN-lr-4is" firstAttribute="leading" secondItem="Tq4-Am-qwQ" secondAttribute="leading" id="hyp-eY-KiH"/>
+                <constraint firstItem="Tq4-Am-qwQ" firstAttribute="trailing" secondItem="Xdc-hr-LZW" secondAttribute="trailing" constant="30" id="sbS-7c-BEg"/>
+                <constraint firstItem="NxN-lr-4is" firstAttribute="top" secondItem="xNW-xH-kYs" secondAttribute="bottom" constant="20" id="v2m-eo-TUP"/>
+                <constraint firstItem="xNW-xH-kYs" firstAttribute="leading" secondItem="Tq4-Am-qwQ" secondAttribute="leading" constant="16" id="v8u-Gu-epm"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Tq4-Am-qwQ"/>
+            <point key="canvasLocation" x="138" y="131"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_add_car" width="63" height="63"/>
+    </resources>
+</document>

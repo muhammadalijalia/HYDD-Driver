@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewVehicleViewController"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" restorationIdentifier="NewVehiclePopup" id="i5M-Pr-FkT" customClass="NewVehiclePopup" customModule="Hydd_Driver" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="irl-uP-DiY">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="405"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_accept_vehicle" translatesAutoresizingMaskIntoConstraints="NO" id="q6d-bF-g4k">
+                            <rect key="frame" x="146.5" y="40" width="82.5" height="82.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="q6d-bF-g4k" secondAttribute="height" multiplier="1:1" id="mX1-J1-PFi"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4jw-Gv-W9h">
+                            <rect key="frame" x="28" y="142.5" width="319" height="0.0"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="wpM-w5-PUE">
+                            <rect key="frame" x="28" y="335" width="319" height="50"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VQN-uK-eOD">
+                                    <rect key="frame" x="0.0" y="0.0" width="149.5" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSb-tf-Mbj" customClass="ZFRippleButton" customModule="Hydd_Driver" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="149.5" height="50"/>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="rippleColor">
+                                                    <color key="value" red="0.17254901959999999" green="0.6705882353" blue="0.72941176470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="rippleBackgroundColor">
+                                                    <color key="value" red="0.21176470589999999" green="0.74117647060000003" blue="0.81568627449999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstItem="GSb-tf-Mbj" firstAttribute="top" secondItem="VQN-uK-eOD" secondAttribute="top" id="mkD-7m-YZf"/>
+                                        <constraint firstItem="GSb-tf-Mbj" firstAttribute="leading" secondItem="VQN-uK-eOD" secondAttribute="leading" id="ooz-dZ-GS3"/>
+                                        <constraint firstAttribute="bottom" secondItem="GSb-tf-Mbj" secondAttribute="bottom" id="uBr-jG-2IC"/>
+                                        <constraint firstAttribute="trailing" secondItem="GSb-tf-Mbj" secondAttribute="trailing" id="vSx-Cg-dZr"/>
+                                    </constraints>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Lc-uZ-f13">
+                                    <rect key="frame" x="169.5" y="0.0" width="149.5" height="50"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ow1-GS-qtB" customClass="ZFRippleButton" customModule="Hydd_Driver" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="149.5" height="50"/>
+                                        </button>
+                                    </subviews>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="ow1-GS-qtB" secondAttribute="trailing" id="Bzm-Bg-zNo"/>
+                                        <constraint firstItem="ow1-GS-qtB" firstAttribute="leading" secondItem="8Lc-uZ-f13" secondAttribute="leading" id="Owf-TB-0v6"/>
+                                        <constraint firstAttribute="bottom" secondItem="ow1-GS-qtB" secondAttribute="bottom" id="PgB-UH-Al0"/>
+                                        <constraint firstItem="ow1-GS-qtB" firstAttribute="top" secondItem="8Lc-uZ-f13" secondAttribute="top" id="xpu-sf-g38"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="PUr-lZ-GCq"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="q6d-bF-g4k" firstAttribute="centerX" secondItem="irl-uP-DiY" secondAttribute="centerX" id="5bk-Zd-IUJ"/>
+                        <constraint firstAttribute="bottom" secondItem="wpM-w5-PUE" secondAttribute="bottom" constant="20" id="5t2-wB-tL1"/>
+                        <constraint firstItem="4jw-Gv-W9h" firstAttribute="width" secondItem="irl-uP-DiY" secondAttribute="width" multiplier="0.85" id="88s-9X-FDh"/>
+                        <constraint firstItem="wpM-w5-PUE" firstAttribute="width" secondItem="irl-uP-DiY" secondAttribute="width" multiplier="0.85" id="A8P-RW-03g"/>
+                        <constraint firstItem="4jw-Gv-W9h" firstAttribute="centerX" secondItem="irl-uP-DiY" secondAttribute="centerX" id="N2f-yr-OlY"/>
+                        <constraint firstItem="wpM-w5-PUE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="4jw-Gv-W9h" secondAttribute="bottom" constant="15" id="fni-iB-th8"/>
+                        <constraint firstItem="4jw-Gv-W9h" firstAttribute="top" secondItem="q6d-bF-g4k" secondAttribute="bottom" constant="20" id="jxC-uF-DEA"/>
+                        <constraint firstItem="q6d-bF-g4k" firstAttribute="width" secondItem="irl-uP-DiY" secondAttribute="width" multiplier="0.22" id="sHj-Yb-JhU"/>
+                        <constraint firstItem="q6d-bF-g4k" firstAttribute="centerY" secondItem="irl-uP-DiY" secondAttribute="centerY" multiplier="0.4" id="tTy-14-8Cw"/>
+                        <constraint firstItem="wpM-w5-PUE" firstAttribute="centerX" secondItem="irl-uP-DiY" secondAttribute="centerX" id="uSd-pZ-Mhh"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="irl-uP-DiY" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="Nh5-aK-HRx"/>
+                <constraint firstItem="irl-uP-DiY" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="Vuq-Ng-Qvx"/>
+                <constraint firstItem="irl-uP-DiY" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" id="bH2-I2-D2C"/>
+                <constraint firstItem="irl-uP-DiY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hEB-d2-X6g"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="buttonNo" destination="ow1-GS-qtB" id="lOI-0Y-9Dd"/>
+                <outlet property="buttonYes" destination="GSb-tf-Mbj" id="h2F-E5-iY4"/>
+                <outlet property="labelDescription" destination="4jw-Gv-W9h" id="w7s-tl-Z3k"/>
+                <outlet property="viewCorner" destination="irl-uP-DiY" id="27G-K6-Sfb"/>
+                <outlet property="viewNo" destination="8Lc-uZ-f13" id="a1W-KR-3Nf"/>
+                <outlet property="viewYes" destination="VQN-uK-eOD" id="rIs-gA-5OF"/>
+            </connections>
+            <point key="canvasLocation" x="136.80000000000001" y="25.637181409295355"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icon_accept_vehicle" width="66" height="66"/>
+    </resources>
+</document>

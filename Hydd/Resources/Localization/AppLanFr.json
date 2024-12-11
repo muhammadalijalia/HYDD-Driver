@@ -1,0 +1,269 @@
+{
+    "splash_view" :{
+        "nav_title": "Splash",
+        "title_app_name": "Coffee first.\nSchemes later.",
+        "title_button": "Switch language"
+    },
+    "error_msgs":{
+        "empty":"Le champ ne peut pas être vide",
+        "invalid_name":"Nom incorrect",
+        "invalid_email":"Entrez une adresse e-mail valide",
+        "invalid_phone":"Entrez un numéro de téléphone valide",
+        "invalid_password":"Le mot de passe doit contenir au moins 6 caractères",
+        "invalidDob":"Date de naissance invalide",
+        "invalidCountry":"Choisissez le pays",
+        "invalidPhoneNumber":"Entrez un numéro de téléphone valide",
+        "invalid_promo":"Entrez une promotion valide",
+        "invalid_fname":"Le prénom doit comporter au moins 3 caractères",
+        "invalid_lname":"Le nom de famille doit comporter au moins 3 caractères",
+        "invalid_card_number": "Entrez le numéro de carte à 16 chiffres",
+        "invalid_cvv": "CVV est de 3 ou 4 nombres",
+        "invalid_expiry": "Veuillez saisir une date d'expiration valide",
+        "invalid_expiry_expired": "Carte expirée entrée",
+        "invalid_somethingwrong": "Une erreur est survenue",
+        "invalid_howitsdone": "C'est pour montrer comment c'est fait",
+        "no_internet": "Nous avons rencontré un problème. Essayez d'actualiser cet écran",
+        "genaric": "Nous avons rencontré un problème. Essayez d'actualiser cet écran"
+    },
+    "empty_field_msg":{
+        "full_name":"Veuillez saisir votre nom",
+        "first_name":"Veuillez entrer le prénom",
+        "last_name":"Veuillez saisir votre nom",
+        "email":"Le champ d'e-mail ne peut pas être vide",
+        "password":"Le champ du mot de passe ne peut pas être vide",
+        "dob":"Veuillez saisir la date de naissance",
+        "country":"Veuillez sélectionner un pays",
+        "city":"Veuillez sélectionner une ville",
+        "phone_number":"Veuillez entrer le numéro de téléphone",
+        "nickname":"Veuillez saisir votre pseudo",
+        "promo":"Veuillez saisir la promotion",
+        "card_number": "Veuillez saisir le numéro de carte",
+        "card_name": "Veuillez saisir le nom de la carte",
+        "cvv": "Veuillez saisir cvv",
+        "expiry": "Veuillez saisir la date d'expiration"
+    },
+    "signin_view":{
+        "email_placeholder":"Email",
+        "password_placeholder":"Mot de passe",
+        "forgot_password":"MOT DE PASSE OUBLIÉ",
+        "sign_in":"SE CONNECTER",
+        "login_error":"Erreur d'identification",
+        "went_wrong":"Une erreur est survenue",
+        "error":"Erreur",
+        "city":"Veuillez sélectionner une ville",
+        "phone_number":"Veuillez entrer le numéro de téléphone",
+        "nickname":"Veuillez saisir votre pseudo",
+        "promo":"Veuillez saisir la promotion",
+        "card_number": "Veuillez saisir le numéro de carte",
+        "card_name": "Veuillez saisir le nom de la carte",
+        "cvv": "Veuillez saisir cvv",
+        "expiry": "Veuillez saisir la date d'expiration"
+    },
+    "signin_view":{
+        "email_placeholder":"Email",
+        "password_placeholder":"Mot de passe",
+        "forgot_password":"MOT DE PASSE OUBLIÉ",
+        "sign_in":"SE CONNECTER",
+        "login_error":"Erreur d'identification",
+        "went_wrong":"Une erreur est survenue",
+        "error":"Erreur",
+    },
+    "registeration_view":{
+        "success_status":"Voiture enregistrée avec succès",
+        "plateno":"Numéro de la plaque",
+        "model":"Modèle",
+        "brand":"Marque",
+        "year":"Année",
+        "color":"Couleur",
+        "submit":"VALIDER",
+        "register":" NOUVELLE VOITURE",
+        "went_wrong":"Une erreur est survenue",
+        "error":"Erreur"
+        
+    },
+    "tabbar_view":{
+        "newjobs":"Nouvelle mission",
+        "myjobs":"Mes missions",
+        "chat":"Chat",
+        "earnings":"Gains",
+        "others":"Autres",
+        "went_wrong":"Une erreur est survenue"
+    },
+    "profile_view":{
+        "success_status":"Mise à jour du profil réussie",
+        "error":"Erreur",
+        "save":"Valider",
+        "plate":"Numéro de la plaque",
+        "car_added":"Aucune voiture ajoutée",
+        "add":"Ajouter une voiture",
+        "rating":"Évaluation",
+        "went_wrong":"Une erreur est survenue"
+        
+    },
+    "start_job_view":{
+        "start":"COMMENCER",
+        "accept":"ACCEPTER CETTE MISSION",
+        "track":"SUIVI DE MISSION",
+        "cancel":"ANNULER",
+        "pickup":"Lieu de prise en charge",
+        "dest":"Destination",
+        "no_car":"Nombre de voitures\n",
+        "est_time":"Temps estimé\n",
+        "est_km":"Kms estimé\n",
+        "hours":"Heures incluses\n",
+        "kms":"Kms inclus\n",
+        "title_babyseat":"Siège bébé (9€)",
+        "title_babyseat1":"Siège bébé : 0-18 kg",
+        "title_babyseat2":"Siège bébé : 15-36 kg",
+        "title_babyseat3":"Siège bébé : 22-36 kg",
+        "title_infantseat1":"De la naissance à 15 mois",
+        "title_infantseat2":"De 4 ans à 7 ans",
+        "title_infantseat3":"De 4 ans à 11 ans",
+        "nameboard":"NomBoard",
+        "flight":"Numéro de vol",
+        "instructions":"Instructions",
+        "railway":"Numéro de voie",
+        "error":"Erreur",
+        "est_time":"Temps estimé\n",
+        "went_wrong":"Une erreur est survenue"
+        
+    },
+    "popups_view":{
+        "new_vehicle_1":"Pour cette mission ",
+        "new_vehicle_2":" la classe est obligatoire. Dans votre profil, il n'y a pas ",
+        "new_vehicle_3":" classe enregistrée. Sans pour autant ",
+        "new_vehicle_4":" classe, vous ne pouvez pas accepter cette mission. Voulez-vous enregistrer un ",
+        "new_vehicle_5":" class?",
+        "yes":"OUI",
+        "no":"NON",
+        "accept_1":"Vous allez accepter ce travail.",
+        "accept_2":"Sélectionnez le numéro de plaque ",
+        "accept_3":"de la voiture affectée à cette mission",
+        "confirm":"CONFIRMER",
+        "cancel_1":"Êtes-vous sûr d'annuler ce travail? Vous pouvez avoir ",
+        "cancel_2":"pénalité de",
+        "cancel_3":"Êtes-vous sûr de vouloir annuler ? Cette action peux engendrer la suspension de votre compte. Notre équipe vous contactera pour connaître la raison.",
+        "start_1":"Etes-vous sûr de ",
+        "start_2":"commencer la mission?",
+        "start_3":" Choisissez la voiture pour cette mission"
+        
+    },
+    "job_completed_view":{
+        "progress":"EN COURS",
+        "completed":"TERMINÉE",
+        "went_wrong":"Une erreur est survenue"
+    },
+    "earnings_view":{
+        "mission":"Mission",
+        "transfer":"Transfert",
+        "directed":"Mise à dispo.",
+        "error":"Erreur",
+        "day":"JOUR",
+        "week":"SEMAINE",
+        "month":"MOIS",
+        "today":"AUJOURD'HUI",
+        "went_wrong":"Une erreur est survenur"
+        
+    },
+    "mycars_view":{
+        "mycar":"Mes voitures"
+    },
+    "job_listing_view":{
+        "pickup":"Lieu de prise en charge",
+        "went_wrong":"Une erreur est survenur"
+    },
+    "forgot_password_view":{
+        "forgotlabel":"MOT DE PASSE OUBLIÉ",
+        "continue":"Suivant",
+        "enter_email":"Entrez votre adresse e-mail \n ci-dessous",
+        "error":"Erreur",
+        "went_wrong":"Une erreur est survenue"
+    },
+    "congratulate_view":{
+        "congratulate":"Félicitations",
+        "sent":"Request envoyé!",
+        "ok":"OK",
+        "assigned_job":"La mission vous a été attribuée. Vous avez tous les détails de la mission. Assurez-vous d'être ponctuel et professionnel avec le client. Le client vous évaluera à la fin de la mission afin de fournir le meilleur service.\n\nSi vous avez des questions, veuillez nous contacter par e-mail contact@hydd.tech",
+        "request_job":"Votre demande a été envoyée à notre équipe. Un de nos agents vous contactera pour confirmer certaines informations pour la validation. \n\n nVous devez attendre la validation de votre demande avant d'accepter une mission avec cette voiture. \n\n Si vous avez des questions, veuillez nous contacter par e-mail contact@hydd.tech",
+        "went_wrong":"Une erreur est survenue"
+    },
+    "chat_view":{
+        "select_option":"Veuillez sélectionner une option",
+        "location":"Localisation actuelle",
+        "dismiss":"Annuler",
+        "send":"Envoyer",
+        "say_somthing":"Discutez...",
+        "error":"Une erreur est survenue: ",
+        "went_wrong":"Une erreur est survenue"
+    },
+    "change_password_view":{
+        "warning":"Avertissement",
+        "validemail":"Veuillez saisir une adresse e-mail valide",
+        "address":"e-mail Adresse",
+        "update":"Mettre à jour mon adresse e-mail",
+        "email_success":"E-mail mis à jour avec succès",
+        "error":"Erreur",
+        "password_condition":"Le mot de passe doit contenir plus de 5 caractères.",
+        "define_new_pass":"Définissez votre nouveau mot de passe",
+        "passdesc":"Le mot de passe sécurisé comprend 5 lettres avec des chiffres et des caractères spéciaux",
+        "change_pass":"Changer le mot de passe",
+        "pass_success":"Mot de passe mis à jour avec succès",
+        "actual_pass":"Tapez votre mot de passe actuel",
+        "please_type_actual":"Pour votre sécurité, veuillez saisir votre mot de passe actuel",
+        "verify":"Vérifier",
+        "pass_success":"Mot de passe mis à jour avec succès"
+    },
+    "navigation_view":{
+        "go":"Go",
+        "error":"Erreur",
+        "select":"Veuillez sélectionner la destination"
+    },
+    "navigation_popup_view":{
+        "clientonboard":"client à bord",
+        "error":"Erreur",
+        "waiting":"En attente du client",
+        "daycomplete":"Jour terminé",
+        "close":"Mission accomplie",
+        "noshow":"No Show"
+    },
+    "others_view":{
+        "edit":"Editer le profil",
+        "mycars":"Mes voitures",
+        "support":"Support",
+        "myratings":"Mes évaluations",
+        "ratings":"Évaluations",
+        "logout":"Se déconnecter",
+        "phone": "Phone",
+        "email": "Email",
+        "chat": "Chat",
+        "dismiss": "Ignorer",
+        "selectoption": "Veuillez sélectionner une option"
+    },
+    "navigate_view":{
+        "navigate":"Naviguer avec",
+        "nogps":"Sans GPS"
+    },
+    "status_cell_views": {
+        "send_message":"Envoyer un message au client",
+        "total_kms": "Kms restantes",
+        "total_hours": "Heures restantes",
+        "extra_kms": "Kms additionnel",
+        "chat_driver":"Vous pouvez discuter avec votre client"
+    },
+    "my_ratings_view":{
+        "comm":"Communication",
+        "court":"Courtoisie",
+        "punct":"Ponctualité",
+        "sat_1":"Statistiques basées sur ",
+        "sat_2":" avis des clients",
+        "out":"Sur 5",
+        "logout":"Se déconnecter"
+    },
+    
+    "connection":{
+        "label_network": "Réseau inaccessible!",
+        "network_details": "Il semble que votre connexion soit instable, veuillez réessayer!"
+    }
+    
+}
+

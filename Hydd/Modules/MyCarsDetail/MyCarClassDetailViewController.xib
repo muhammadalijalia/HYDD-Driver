@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyCarClassDetailViewController">
+            <connections>
+                <outlet property="labelClass" destination="slJ-G9-Jv1" id="fYd-a2-nFJ"/>
+                <outlet property="tableViewCars" destination="KZ1-NY-kHw" id="no9-Jm-qlT"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My cars" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slJ-G9-Jv1">
+                    <rect key="frame" x="16" y="30" width="135" height="48"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="KZ1-NY-kHw">
+                    <rect key="frame" x="0.0" y="98" width="375" height="569"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="slJ-G9-Jv1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="HcL-DX-FpS"/>
+                <constraint firstItem="KZ1-NY-kHw" firstAttribute="top" secondItem="slJ-G9-Jv1" secondAttribute="bottom" constant="20" id="VCS-9U-elE"/>
+                <constraint firstItem="KZ1-NY-kHw" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="o04-cJ-wUH"/>
+                <constraint firstAttribute="bottom" secondItem="KZ1-NY-kHw" secondAttribute="bottom" id="ukN-N3-73M"/>
+                <constraint firstAttribute="trailing" secondItem="KZ1-NY-kHw" secondAttribute="trailing" id="ybD-Ku-uCn"/>
+                <constraint firstItem="slJ-G9-Jv1" firstAttribute="top" secondItem="LVV-3A-CRV" secondAttribute="top" constant="30" id="zMS-aY-Bu3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="LVV-3A-CRV"/>
+            <point key="canvasLocation" x="138" y="131"/>
+        </view>
+    </objects>
+</document>

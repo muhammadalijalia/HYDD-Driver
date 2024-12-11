@@ -1,0 +1,269 @@
+{
+    "splash_view" :{
+        "nav_title": "Splash",
+        "title_app_name": "Coffee first.\nSchemes later.",
+        "title_button": "Switch language"
+    },
+    "error_msgs":{
+        "empty":"Field cannot be empty",
+        "invalid_name":"Invalid name",
+        "invalid_email":"Enter a valid email address",
+        "invalid_phone":"Enter a valid phone number",
+        "invalid_password":"Password must be at least 6 characters long",
+        "invalidDob":"Invalid date of birth",
+        "invalidCountry":"Select Country",
+        "invalidPhoneNumber":"Enter a valid phone number",
+        "invalid_promo":"Enter a valid Promo",
+        "invalid_fname":"First name must be at least 3 characters long",
+        "invalid_lname":"Last name must be at least 3 characters long",
+        "invalid_card_number": "Enter 16 digit card number",
+        "invalid_cvv": "CVV is of 3 or 4 numbers",
+        "invalid_expiry": "Please enter valid expiry date",
+        "invalid_expiry_expired": "Expired card entered",
+        "invalid_somethingwrong": "Some thing went wrong",
+        "invalid_howitsdone": "This is to show how it is done",
+        "no_internet": "We ran into a problem. Try refreshing this screen",
+        "genaric": "We ran into a problem. Try refreshing this screen"
+    },
+    "empty_field_msg":{
+        "full_name":"Please enter Name",
+        "first_name":"Please enter First Name",
+        "last_name":"Please enter Last Name",
+        "email":"Email Field Cannot Be Empty",
+        "password":"Password Field Cannot Be Empty",
+        "dob":"Please enter date of birth",
+        "country":"Please select Country",
+        "city":"Please select City",
+        "phone_number":"Please enter Phone Number",
+        "nickname":"Please enter Nickname",
+        "promo":"Please enter Promo",
+        "card_number": "Please enter card number",
+        "card_name": "Please enter card name",
+        "cvv": "Please enter cvv",
+        "expiry": "Please enter expiry date"
+    },
+    "signin_view":{
+        "email_placeholder":"Email",
+        "password_placeholder":"Password",
+        "forgot_password":"FORGOT PASSWORD",
+        "sign_in":"SIGN IN",
+        "login_error":"Login Error",
+        "went_wrong":"Something went wrong",
+        "error":"Error",
+        "city":"Please select City",
+        "phone_number":"Please enter Phone Number",
+        "nickname":"Please enter Nickname",
+        "promo":"Please enter Promo",
+        "card_number": "Please enter card number",
+        "card_name": "Please enter card name",
+        "cvv": "Please enter cvv",
+        "expiry": "Please enter expiry date"
+    },
+    "signin_view":{
+        "email_placeholder":"Email",
+        "password_placeholder":"Password",
+        "forgot_password":"FORGOT PASSWORD",
+        "sign_in":"SIGN IN",
+        "login_error":"Login Error",
+        "went_wrong":"Something went wrong!",
+        "error":"Error"
+    },
+    "registeration_view":{
+           "success_status":"Car registered successfully",
+           "plateno":"Plate number",
+           "model":"Model",
+           "brand":"Brand",
+           "year":"Year",
+           "color":"Color",
+           "submit":"SUBMIT",
+           "register":" REGISTER A NEW CAR",
+           "went_wrong":"Something went wrong!",
+           "error":"Error"
+           
+       },
+    "tabbar_view":{
+              "newjobs":"New Jobs",
+              "myjobs":"My Jobs",
+              "chat":"Chat",
+              "earnings":"Earnings",
+              "others":"Others",
+              "went_wrong":"Something went wrong!"
+          },
+    "profile_view":{
+        "success_status":"Profile updated successfully",
+        "error":"Error",
+        "save":"Save",
+        "plate":"Plate number",
+        "car_added":"No car added",
+        "add":"Add car",
+        "rating":"Rating",
+         "went_wrong":"Something went wrong!"
+        
+    },
+    "start_job_view":{
+        "start":"START",
+        "accept":"ACCEPT THIS JOB",
+        "track":"TRACK LOCATION",
+        "cancel":"CANCEL",
+        "pickup":"Pickup Location",
+        "dest":"Destination",
+        "no_car":"Number of cars\n",
+         "est_time":"Estimated Time\n",
+         "est_km":"Estimated Kms\n",
+         "hours":"Hours Included\n",
+         "kms":"Kms Included\n",
+         "title_babyseat":"Baby seat (9€)",
+         "title_babyseat1":"Baby seat : 0-18 kg",
+         "title_babyseat2":"Infant seat : 15-36 kg",
+         "title_babyseat3":"Infant seat : 22-36 kg",
+         "title_infantseat1":"From birth to 15 months",
+         "title_infantseat2":"From 4 years old to 7 years old",
+         "title_infantseat3":"From 4 years old to 11 years old",
+         "nameboard":"NameBoard",
+         "flight":"Flight No",
+         "instructions":"Instructions",
+         "railway":"Railway No",
+         "error":"Error",
+          "est_time":"Estimated Time\n",
+          "went_wrong":"Something went wrong!"
+        
+    },
+    "popups_view":{
+          "new_vehicle_1":"For this job, ",
+          "new_vehicle_2":" class is required. In you profil, there is no ",
+          "new_vehicle_3":" class registered. Without ",
+          "new_vehicle_4":" class you can’t accept this job. Do you want to register an ",
+          "new_vehicle_5":" class?",
+          "yes":"YES",
+          "no":"NO",
+          "accept_1":"You are going to accept this job.\n",
+          "accept_2":"Select the plate number ",
+          "accept_3":"of the car dedicated to this mission",
+          "confirm":"CONFIRM",
+          "cancel_1":"Are you sure to cancel this job? You can have ",
+          "cancel_2":"penalty",
+          "cancel_3":"Are you sure you want to cancel? This action may result in the suspension of your account.Our team will contact you to find out the reason.",
+          "start_1":"Are you sure to ",
+          "start_2":"start the job?\n",
+          "start_3":"Choose the car for this job"
+          
+      },
+    "job_completed_view":{
+                 "progress":"IN PROGRESS",
+                 "completed":"COMPLETED JOBS",
+                 "went_wrong":"Something went wrong"
+             },
+    "earnings_view":{
+        "mission":"Mission",
+        "transfer":"Transfers",
+        "directed":"As Directed",
+        "error":"Error",
+        "day":"DAY",
+        "week":"WEEK",
+        "month":"MONTH",
+        "today":"TODAY",
+         "went_wrong":"Something went wrong!"
+        
+    },
+    "mycars_view":{
+        "mycar":"My Cars"
+    },
+    "job_listing_view":{
+        "pickup":"Pickup Location",
+        "went_wrong":"Something went wrong!"
+    },
+    "forgot_password_view":{
+           "forgotlabel":"FORGOT PASSWORD",
+           "continue":"Continue",
+           "enter_email":"Enter your register HYDD\nemail address below",
+            "error":"Error",
+           "went_wrong":"Something went wrong!"
+       },
+    "congratulate_view":{
+        "congratulate":"Congratulations",
+        "sent":"Request sent!",
+        "ok":"OK",
+         "assigned_job":"The job has been assigned to you. You have all the details of the mission. Make sure to be ponctual and professional with the client. Client will rate you at the end of the mission so provide the best service.\n\nIf you have any query, please contact us by email contact@hydd.tech",
+        "request_job":"Your request has been sent to our team. One of our agent will contact you to confirm some information for the validation.\n\nYou must wait the validation of your request before accepting a mission with this car.\n\nIf you have any query, please contact us by email contact@hydd.io",
+        "went_wrong":"Something went wrong!"
+    },
+    "chat_view":{
+           "select_option":"Please Select an Option",
+           "location":"Current location",
+           "dismiss":"Dismiss",
+            "send":"Send",
+           "say_somthing":"Say something...",
+           "error":"Error occurred: ",
+           "went_wrong":"Something went wrong!"
+       },
+    "change_password_view":{
+              "warning":"Warning",
+              "validemail":"Please enter valid email",
+              "address":"e-mail Address",
+               "update":"Update my email address",
+              "email_success":"Email updated successfully",
+              "error":"Error",
+              "password_condition":"Password must be greater than 5 characters.",
+              "define_new_pass":"Define your new password",
+              "passdesc":"Secured password includes 5 letters with figures and special characters",
+               "change_pass":"Change password",
+              "pass_success":"Password updated successfully",
+              "actual_pass":"Type your actual password",
+              "please_type_actual":"For your security, please type your actual password",
+              "verify":"Verify",
+              "pass_success":"Password updated successfully"
+          },
+    "navigation_view":{
+                 "go":"Go",
+                 "error":"Error",
+                 "select":"Please select destination"
+             },
+    "navigation_popup_view":{
+        "clientonboard":"Client Onboard",
+        "error":"Error",
+        "waiting":"Waiting For Client",
+        "daycomplete":"Day Completed",
+        "noshow":"No Show",
+        "close":"Close",
+        "noshow":"No Show"
+    },
+    "others_view":{
+        "edit":"Edit profile",
+        "mycars":"My cars",
+        "support":"Support",
+        "myratings":"My Ratings",
+        "ratings":"Rating",
+        "logout":"Logout",
+        "phone":"Phone",
+        "email":"Email",
+        "chat":"Chat",
+        "dismiss":"Dismiss",
+        "selectoption":"Please Select an Option"
+    },
+    "navigate_view":{
+        "navigate":"Navigate with",
+        "nogps":"No GPS"
+    },
+    "status_cell_views": {
+        "send_message":"Send message to client",
+        "total_kms": "Remaining kms",
+        "total_hours": "Remaining hours",
+        "extra_kms": "Additional kms",
+        "chat_driver":"You can chat with your client"
+    },
+    "my_ratings_view":{
+        "comm":"Communication",
+        "court":"Courtesy",
+        "punct":"Punctuality",
+        "sat_1":"Statistics based on ",
+        "sat_2":" customer reviews",
+        "out":"Out of 5",
+        "logout":"Logout"
+    },
+    "connection":{
+           "label_network":"Network unreachable!",
+           "network_details":"It seems your connection is unstable, please try again!"
+    }
+    
+
+}
